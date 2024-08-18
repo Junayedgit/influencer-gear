@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+/* ..........................................
+ influencer-part
+ ........................................... */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 150px;
+
+}
+
+.linked-button {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 24px;
+
+}
+
+.fa-arrow-right {
+    padding-left: 5px;
+}
+
+.container img {
+
+    width: 440px;
+    height: 414px;
+}
+
+/*---------------------------------------
+ influencer-part-done
+ ---------------------------------------- */
+
+/* ---------------------------------------
+ logo part 
+ ------------------------------------------  */
+.logo ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 25px;
+}
+
+.logo li {
+    list-style: none;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+/* logo part done  */
+
+/*------------------------------------
+ popular collection start
+  --------------------------------------  */
+
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.collection-area {
+    border: 5px solid white;
+    box-shadow: 1px 1px 4px gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 329px;
+    height: 476px;
+}
+
+.collection img {
+    margin-left: 12px;
+    width: 300px;
+    height: 256px;
+
+}
+
+.collection p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.grid-layout {
+    padding: 10px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.fa-star {
+    font-size: 12px;
+    color: gold;
+}
+
+/*-------------------------------------- 
+featured start
+----------------------------------------  */
+h2 {
+    font-size: 2em;
+}
+
+.featured {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.featured p {
+    width: 501px;
+    height: 88px;
+}
+
+.featured img {
+    width: 404px;
+    height: 270px;
+}
+
+/*-------------------------------------
+ footer section
+ --------------------------------------  */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #0A0826;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
